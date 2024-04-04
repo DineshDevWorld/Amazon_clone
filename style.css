@@ -1,0 +1,273 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar {
+    background-color: #0f1111 ;
+    color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar_logo {
+    height: 50px;
+    width: 150px;
+}
+
+.logo {
+    height: 50px;
+    width: 150px;
+    background-size: cover;
+    background-image: url("mainlogo.png");
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.address_logo {
+    display: flex;
+}
+
+.addhead {
+    margin-left: 15px;
+}
+
+.addhead2 {
+    margin-left: 3px;
+}
+
+.search {
+    display: flex;
+    height: 40px;
+    width: 750px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.search:hover {
+    border: 2px solid orange;
+}
+
+.serachselect {
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: rgb(218, 218, 218);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.searchinput {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.searchlogo {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    background-color: rgb(255, 108, 54);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+
+.signin {
+    font-size: 0.75rem
+}
+
+.bigfont {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.return {
+    font-size: 0.75rem;
+}
+
+.navcart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.navcart i {
+    font-size: 1.5rem;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(34, 50, 81);
+    align-items: center;
+    height: 40px;
+    color: white;
+}
+
+.itempanel {
+    width: 75%;
+}
+
+.itempanel p {
+    margin-left: 15px;
+    display: inline;
+}
+
+.specialitempanel p {
+    font-weight: 700;
+}
+
+.herosection {
+    height: 300px;
+    background-size: cover;
+    background-image: url("main.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.herocontent {
+    display: flex;
+    height: 40px;
+    font-size: 0.75rem;
+    background-color: white;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.herocontent a {
+    text-decoration: none;
+    color: blueviolet;
+
+}
+
+.itembox {
+    background-color: rgb(222, 186, 255);
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    margin-top: 15px;
+    height: 430px;
+    width: 23%;
+    background-color: white;
+
+
+}
+
+.img {
+    height: 300px;
+    margin: 0.85rem;
+    background-size: cover;
+
+}
+
+.tittle {
+    padding: 20px 0px 0px 20px;
+}
+
+.box a {
+    color: rgb(34, 130, 98);
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: brown;
+
+}
+
+footer {
+    margin-top: 15px;
+}
+
+.panel1 {
+    height: 50px;
+    background-color: rgb(34, 50, 81);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.panel2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: rgb(13, 20, 33);
+    color: white;
+    height: 300px;
+    border-bottom: 2px solid white;
+}
+
+.panel2 a {
+    display: block;
+    font-size: 0.85rem;
+    color: rgb(251, 228, 198);
+    padding: 0.4rem;
+}
+
+.panel3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #0f1111;
+
+}
+
+.logos {
+    height: 50px;
+    width: 150px;
+    background-size: cover;
+    background-image: url("mainlogo.png");
+}
+
+.panel4 {
+    height: 50px;
+    background-color: rgb(13, 20, 33);
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.panel4 a {
+    font-size: 0.75rem;
+}
+
+.panel4 p {
+    font-size: 0.75rem;
+}
+
+
