@@ -15,7 +15,7 @@ This project is a clone of the popular e-commerce website Amazon. It was created
 ## Installation
 1. Clone the repository: 
 ```bash
-git clone https://github.com/DineshDevWorld/Amazon-clone.git
+git clone https://github.com/DineshDevWorld/Amazon_clone.git
 ```
 2. Open the index.html file in your preferred web browser.
 
